@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "yolov8-api"
+version = "0.1.0"
+description = ""
+authors = ["joaocaju1 <jgpretti2002@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "4.2"
+djangorestframework = "^3.15.2"
+ultralytics = "^8.3.9"
+opencv-python = "^4.10.0.84"
+pygetwindow = "^0.0.9"
+mss = "^9.0.2"
+opencv-python-headless = "^4.10.0.84"
+matplotlib = "^3.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
